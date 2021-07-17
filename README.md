@@ -2,6 +2,9 @@
 In the beginning, it asks the input file name from the user. The file should be in the examples folder, and the user should pass the extension as well.
 The second input is the output file name, which will be created in the "examples" folder.
 
+Example first input: box.obj 
+Example second input: box.stl
+
 Default, there is no transformation. The implemented transformations are: scale and translate. Those can be added with coding, in the main function.
 
 
