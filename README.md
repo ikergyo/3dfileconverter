@@ -12,7 +12,7 @@ Default, there is no transformation. The implemented transformations are: scale 
 # Implementation
 ## Interfaces
 ### IModelReader
-This is responsible for the reader requirements. Which class implements, it should have a function which returns with a vector of triangles. So it should create triangles based on the actual file format.
+This is responsible for the reader requirements. Which class implements it, it should have a function which returns with a vector of triangles. So it should create triangles based on the actual file format.
 Only the ObjReader class implements the interface, which is responsible for reading an .obj file.
 
 ### IModelWriter
